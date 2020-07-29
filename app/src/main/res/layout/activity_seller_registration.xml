@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sellers.SellerRegistrationActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/seller_header"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فرم ثبت نام فروشنده"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+    <EditText
+        android:id="@+id/input_seller_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="نام و نام خانوادگی"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_seller_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="شماره تلفن"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_seller_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="آدرس ایمیل"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/input_seller_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="پسورد"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/input_seller_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="آدرس فروشگاه"
+        android:layout_marginBottom="5dp"
+        android:padding="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btn_seller_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="17dp"
+        android:textSize="18sp"
+        android:text="عضویت"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:id="@+id/btn_seller_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="17dp"
+        android:textSize="18sp"
+        android:text="قبلا عضو شده ام"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

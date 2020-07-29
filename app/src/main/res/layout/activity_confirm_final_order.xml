@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buyers.ConfirmFinalOrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="لطفا اطلاعات را برای ارسال وارد کنید..."
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/input_shipping_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="نام و نام خانوادگی"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="60dp"/>
+        <EditText
+            android:id="@+id/input_shipping_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="شماره تماس تحویل گیرنده"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/input_shipping_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="شهر محل سکونت"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/input_shipping_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="خیابان، کوچه و پلاک"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:text="تکمیل"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+</RelativeLayout>

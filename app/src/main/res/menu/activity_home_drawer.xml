@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/nav_cart"
+            android:title="سبد خرید" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/nav_orders"
+            android:title="جستجوی محصولات"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/nav_category"
+            android:title="محصولات" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="تنظیمات" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_logout"
+            android:title="خروج" />
+    </group>
+
+</menu>

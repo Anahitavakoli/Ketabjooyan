@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "197193019",
+    "firebase_url": "https://ketabjooyan-7abeb.firebaseio.com",
+    "project_id": "ketabjooyan-7abeb",
+    "storage_bucket": "ketabjooyan-7abeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197193019:android:37fe53511da3dcff71db1e",
+        "android_client_info": {
+          "package_name": "com.anahitavakoli.ketabjooyan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197193019-afbnas08j9tr66l0sl90q68bjtu2fi71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anahitavakoli.ketabjooyan",
+            "certificate_hash": "941bb193c1a3a97170327cb6f4d86c38b45b3334"
+          }
+        },
+        {
+          "client_id": "197193019-5md7q1o6kksfl03dlrdb6lhlnrs9cj9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3b0FSjQSLywvC573FqeGdQ1Y9adSVRqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197193019-5md7q1o6kksfl03dlrdb6lhlnrs9cj9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

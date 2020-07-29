@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".buyers.ProductDetailActivity">
+
+    <ImageView
+        android:id="@+id/img_product_detail"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/txt_product_name_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="product name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txt_product_description_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="product description"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txt_product_price_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="product price"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/btn_product_number_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:textSize="8sp"
+        android:elevation="6dp"
+        app:initialNumber="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        ></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:id="@+id/btn_add_product_detail"
+            android:textColor="@color/white"
+            android:background="@drawable/buttons"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:text="افزودن به سبد خرید"
+            android:layout_alignParentBottom="true"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

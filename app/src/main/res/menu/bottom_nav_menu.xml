@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="خانه" />
+
+    <item
+        android:id="@+id/navigation_add_pro"
+        android:icon="@drawable/button"
+        android:title="اضافه کردن محصول" />
+
+    <item
+        android:id="@+id/navigation_seller_logout"
+        android:icon="@drawable/nav_logout"
+        android:title="خروج" />
+
+</menu>

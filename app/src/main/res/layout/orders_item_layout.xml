@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/linear_cart2">
+            <TextView
+                android:id="@+id/admin_orders_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:text="تلفن"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/admin_orders_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"
+                android:text="نام کاربر"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/admin_orders_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="قیمت کل"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@id/linear_cart2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            />
+        <TextView
+            android:id="@+id/admin_orders_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="آدرس"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@id/admin_orders_total_price"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/admin_orders_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تاریخ و ساعت"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@id/admin_orders_address"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:id="@+id/btn_show_order_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/admin_orders_date_time"
+            android:background="@drawable/cart_buttons"
+            android:layout_margin="20dp"
+            android:text="مشاهده جزئیات سفارش"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
